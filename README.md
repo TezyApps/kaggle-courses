@@ -27,3 +27,10 @@ Sigmoid activation in output layer with binary cross-entropy loss enables two-cl
 - `notebooks/tensorflow-experiments.ipynb` - TensorFlow installation verification
 - `notebooks/neural-networks.ipynb` - Lessons 1-5 implementations
 - `notebooks/dl-binary-classification.ipynb` - Binary classification with ion dataset
+
+## Next Steps
+
+- Classify images with TPUs in [**Petals to the Metal**](https://www.kaggle.com/c/tpu-getting-started)
+- Create art with GANs in [**I'm Something of a Painter Myself**](https://www.kaggle.com/c/gan-getting-started)
+- Classify Tweets in [**Real or Not? NLP with Disaster Tweets**](https://www.kaggle.com/c/nlp-getting-started)
+- Detect contradiction and entailment in [**Contradictory, My Dear Watson**](https://www.kaggle.com/c/contradictory-my-dear-watson)
