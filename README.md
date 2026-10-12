@@ -28,9 +28,23 @@ Sigmoid activation in output layer with binary cross-entropy loss enables two-cl
 - `notebooks/neural-networks.ipynb` - Lessons 1-5 implementations
 - `notebooks/dl-binary-classification.ipynb` - Binary classification with ion dataset
 
+## Data Sources
+
+The CSV files in `resources/` are small sample datasets used by Kaggle's [Intro to Deep Learning](https://www.kaggle.com/learn/intro-to-deep-learning) and [Feature Engineering](https://www.kaggle.com/learn/feature-engineering) courses by Ryan Holbrook. They are included here only so the notebooks run as-is, and remain subject to the terms of their original sources:
+
+- `red-wine.csv` - [Wine Quality](https://archive.ics.uci.edu/dataset/186/wine+quality) (Cortez et al., 2009), UCI Machine Learning Repository
+- `concrete.csv` - [Concrete Compressive Strength](https://archive.ics.uci.edu/dataset/165/concrete+compressive+strength) (I-Cheng Yeh, 1998), UCI Machine Learning Repository
+- `ion.csv` - [Ionosphere](https://archive.ics.uci.edu/dataset/52/ionosphere) (Sigillito et al., 1989), UCI Machine Learning Repository
+- `ames.csv` - [Ames Housing](https://jse.amstat.org/v19n3/decock.pdf) (Dean De Cock, 2011)
+- `fuel.csv` - vehicle fuel economy data derived from the U.S. EPA / DOE [fueleconomy.gov](https://www.fueleconomy.gov/feg/download.shtml) datasets
+
 ## Next Steps
 
 - Classify images with TPUs in [**Petals to the Metal**](https://www.kaggle.com/c/tpu-getting-started)
 - Create art with GANs in [**I'm Something of a Painter Myself**](https://www.kaggle.com/c/gan-getting-started)
 - Classify Tweets in [**Real or Not? NLP with Disaster Tweets**](https://www.kaggle.com/c/nlp-getting-started)
 - Detect contradiction and entailment in [**Contradictory, My Dear Watson**](https://www.kaggle.com/c/contradictory-my-dear-watson)
+
+## License
+
+The code and notebooks in this repository are released under the [MIT License](LICENSE). The license does not cover the datasets in `resources/` (see [Data Sources](#data-sources)) or the Kaggle course material the notebooks are based on.
