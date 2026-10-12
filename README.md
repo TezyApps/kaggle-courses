@@ -27,7 +27,7 @@ Sigmoid activation in output layer with binary cross-entropy loss enables two-cl
 - `notebooks/deep-learning/tensorflow-experiments.ipynb` - TensorFlow installation verification
 - `notebooks/deep-learning/neural-networks.ipynb` - Lessons 1-5 implementations
 - `notebooks/deep-learning/dl-binary-classification.ipynb` - Binary classification with ion dataset
-- `notebooks/feature-engineering/Mutual_Information.ipynb` - Mutual information scores with the Ames housing dataset
+- `notebooks/feature-engineering/Mutual_Information.ipynb` - Mutual information scores with the Ames housing and automobile datasets
 
 ## Data Sources
 
@@ -37,6 +37,7 @@ The CSV files in `resources/` are small sample datasets used by Kaggle's [Intro 
 - `concrete.csv` - [Concrete Compressive Strength](https://archive.ics.uci.edu/dataset/165/concrete+compressive+strength) (I-Cheng Yeh, 1998), UCI Machine Learning Repository
 - `ion.csv` - [Ionosphere](https://archive.ics.uci.edu/dataset/52/ionosphere) (Sigillito et al., 1989), UCI Machine Learning Repository
 - `ames.csv` - [Ames Housing](https://jse.amstat.org/v19n3/decock.pdf) (Dean De Cock, 2011)
+- `autos.csv` - [Automobile](https://archive.ics.uci.edu/dataset/10/automobile) (Jeffrey Schlimmer, 1985), UCI Machine Learning Repository; cleaned subset used in the Feature Engineering course
 - `fuel.csv` - vehicle fuel economy data from the U.S. DOE / EPA [fueleconomy.gov](https://www.fueleconomy.gov/feg/download.shtml) website, as packaged in the `FuelEconomy` data of the R package [AppliedPredictiveModeling](https://cran.r-project.org/package=AppliedPredictiveModeling)
 
 ## Next Steps
