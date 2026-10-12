@@ -1,6 +1,6 @@
 # TensorFlow Basics
 
-Deep learning experiments using TensorFlow and Keras, based on [Kaggle's Intro to Deep Learning](https://www.kaggle.com/learn/intro-to-deep-learning) course.
+Deep learning experiments using TensorFlow and Keras, based on [Kaggle's Intro to Deep Learning](https://www.kaggle.com/learn/intro-to-deep-learning) course, plus notes from Kaggle's [Feature Engineering](https://www.kaggle.com/learn/feature-engineering) course.
 
 ## Key Concepts
 
@@ -24,9 +24,10 @@ Sigmoid activation in output layer with binary cross-entropy loss enables two-cl
 
 ## Notebooks
 
-- `notebooks/tensorflow-experiments.ipynb` - TensorFlow installation verification
-- `notebooks/neural-networks.ipynb` - Lessons 1-5 implementations
-- `notebooks/dl-binary-classification.ipynb` - Binary classification with ion dataset
+- `notebooks/deep-learning/tensorflow-experiments.ipynb` - TensorFlow installation verification
+- `notebooks/deep-learning/neural-networks.ipynb` - Lessons 1-5 implementations
+- `notebooks/deep-learning/dl-binary-classification.ipynb` - Binary classification with ion dataset
+- `notebooks/feature-engineering/Mutual_Information.ipynb` - Mutual information scores with the Ames housing dataset
 
 ## Data Sources
 
@@ -36,7 +37,7 @@ The CSV files in `resources/` are small sample datasets used by Kaggle's [Intro 
 - `concrete.csv` - [Concrete Compressive Strength](https://archive.ics.uci.edu/dataset/165/concrete+compressive+strength) (I-Cheng Yeh, 1998), UCI Machine Learning Repository
 - `ion.csv` - [Ionosphere](https://archive.ics.uci.edu/dataset/52/ionosphere) (Sigillito et al., 1989), UCI Machine Learning Repository
 - `ames.csv` - [Ames Housing](https://jse.amstat.org/v19n3/decock.pdf) (Dean De Cock, 2011)
-- `fuel.csv` - vehicle fuel economy data derived from the U.S. EPA / DOE [fueleconomy.gov](https://www.fueleconomy.gov/feg/download.shtml) datasets
+- `fuel.csv` - vehicle fuel economy data from the U.S. DOE / EPA [fueleconomy.gov](https://www.fueleconomy.gov/feg/download.shtml) website, as packaged in the `FuelEconomy` data of the R package [AppliedPredictiveModeling](https://cran.r-project.org/package=AppliedPredictiveModeling)
 
 ## Next Steps
 
