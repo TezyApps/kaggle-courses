@@ -28,6 +28,8 @@ Sigmoid activation in output layer with binary cross-entropy loss enables two-cl
 - `notebooks/deep-learning/neural-networks.ipynb` - Lessons 1-5 implementations
 - `notebooks/deep-learning/dl-binary-classification.ipynb` - Binary classification with ion dataset
 - `notebooks/feature-engineering/Mutual_Information.ipynb` - Mutual information scores with the Ames housing and automobile datasets
+- `notebooks/feature-engineering/CreatingFeatures.ipynb` - Creating features with mathematical transforms, counts, and group transforms (automobile and Ames housing datasets)
+- `notebooks/feature-engineering/Clustering_K_Means.ipynb` - K-Means clustering as a feature, with the California and Ames housing datasets
 
 ## Data Sources
 
@@ -37,6 +39,7 @@ The CSV files in `resources/` are small sample datasets used by Kaggle's [Intro 
 - `concrete.csv` - [Concrete Compressive Strength](https://archive.ics.uci.edu/dataset/165/concrete+compressive+strength) (I-Cheng Yeh, 1998), UCI Machine Learning Repository
 - `ion.csv` - [Ionosphere](https://archive.ics.uci.edu/dataset/52/ionosphere) (Sigillito et al., 1989), UCI Machine Learning Repository
 - `ames.csv` - [Ames Housing](https://jse.amstat.org/v19n3/decock.pdf) (Dean De Cock, 2011)
+- `housing.csv` - [California Housing](https://scikit-learn.org/stable/datasets/real_world.html#california-housing-dataset) (Pace and Barry, 1997), derived from the 1990 U.S. census
 - `autos.csv` - [Automobile](https://archive.ics.uci.edu/dataset/10/automobile) (Jeffrey Schlimmer, 1985), UCI Machine Learning Repository; cleaned subset used in the Feature Engineering course
 - `fuel.csv` - vehicle fuel economy data from the U.S. DOE / EPA [fueleconomy.gov](https://www.fueleconomy.gov/feg/download.shtml) website, as packaged in the `FuelEconomy` data of the R package [AppliedPredictiveModeling](https://cran.r-project.org/package=AppliedPredictiveModeling)
 
