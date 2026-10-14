@@ -1,0 +1,25 @@
+#!/bin/sh
+# Block commits whose staged files contain local filesystem paths
+# (e.g. a home directory in a notebook warning output).
+# Bypass for a single commit with: git commit --no-verify
+#
+# Enable once per clone with: git config core.hooksPath .githooks
+
+pattern='/Users/[A-Za-z0-9._-]+/|/home/[A-Za-z0-9._-]+/|/var/folder[s]/|[A-Za-z]:\\+Users\\'
+status=0
+
+for file in $(git diff --cached --name-only --diff-filter=ACM | tr ' ' '\001'); do
+    file=$(printf '%s' "$file" | tr '\001' ' ')
+    hits=$(git show ":$file" | LC_ALL=C grep -InoE "$pattern" | head -5)
+    if [ -n "$hits" ]; then
+        [ $status -eq 0 ] && echo "pre-commit: local paths found in staged files:" >&2
+        printf '%s\n' "$hits" | sed "s|^|  $file:|" >&2
+        status=1
+    fi
+done
+
+if [ $status -ne 0 ]; then
+    echo "Clear the notebook outputs (or remove the path), re-stage, and commit again." >&2
+    echo "To commit anyway: git commit --no-verify" >&2
+fi
+exit $status

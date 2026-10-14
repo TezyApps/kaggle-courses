@@ -50,6 +50,14 @@ The CSV files in `resources/` are small sample datasets used by Kaggle's [Intro 
 - Classify Tweets in [**Real or Not? NLP with Disaster Tweets**](https://www.kaggle.com/c/nlp-getting-started)
 - Detect contradiction and entailment in [**Contradictory, My Dear Watson**](https://www.kaggle.com/c/contradictory-my-dear-watson)
 
+## Git Hooks
+
+A pre-commit hook in `.githooks/` blocks commits whose staged files contain local filesystem paths, which notebooks can pick up in warning outputs. Enable it once per clone:
+
+```sh
+git config core.hooksPath .githooks
+```
+
 ## License
 
 The code and notebooks in this repository are released under the [MIT License](LICENSE). The license does not cover the datasets in `resources/` (see [Data Sources](#data-sources)) or the Kaggle course material the notebooks are based on.
