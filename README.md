@@ -30,6 +30,7 @@ Sigmoid activation in output layer with binary cross-entropy loss enables two-cl
 - `notebooks/feature-engineering/Mutual_Information.ipynb` - Mutual information scores with the Ames housing and automobile datasets
 - `notebooks/feature-engineering/CreatingFeatures.ipynb` - Creating features with mathematical transforms, counts, and group transforms (automobile and Ames housing datasets)
 - `notebooks/feature-engineering/Clustering_K_Means.ipynb` - K-Means clustering as a feature, with the California and Ames housing datasets
+- `notebooks/feature-engineering/Principal_Component_Analysis.ipynb` - Principal component analysis (PCA) on standardized features, with mutual information scores, using the automobile dataset
 
 ## Data Sources
 
